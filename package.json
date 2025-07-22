@@ -3,7 +3,7 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run --env .env.dev src/index.ts"
+    "dev": "bun run --env-file .env.dev src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -12,6 +12,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "discord.js": "^14.21.0"
+    "discord.js": "^14.21.0",
+    "glob": "^11.0.3"
   }
 }
