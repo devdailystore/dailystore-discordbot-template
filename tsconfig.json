@@ -31,5 +31,6 @@
     "paths": {
       "@lib/*": ["src/lib/*"]
     }
-  }
+  },
+  "include": ["src"]
 }
